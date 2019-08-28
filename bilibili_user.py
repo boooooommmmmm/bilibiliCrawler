@@ -62,14 +62,15 @@ urls = []
 
 # Please change the range data by yourself.
 def get_urls():
-    for m in range(0, 1):
+    for m in range(1, 100):
         for i in range(m * 100, (m + 1) * 100):
             url = 'https://space.bilibili.com/' + str(i)
             urls.append(url)
 
 
 def getsource(url):
-    print(url)
+    time.sleep(5)
+    print("Try to get URL: " + url)
     payload = {
         '_': datetime_to_timestamp_in_milliseconds(datetime.datetime.now()),
         'mid': url.replace('https://space.bilibili.com/', '')

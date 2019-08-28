@@ -16,17 +16,52 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="779" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="779" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilibili_user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+            <state relative-caret-position="399">
+              <caret line="150" column="91" lean-forward="true" selection-start-line="150" selection-start-column="91" selection-end-line="150" selection-end-column="91" />
               <folding>
                 <element signature="e#21#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/remove_duplicate_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1567009013594" expanded="true" signature="188:1130" ph="..." />
+                <marker date="1567009013594" expanded="true" signature="682:684" ph="..." />
+                <marker date="1567009013594" expanded="true" signature="682:688" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,6 +130,7 @@
         <option value="$PROJECT_DIR$/get_face.py" />
         <option value="$PROJECT_DIR$/venv/remove_duplicates.py" />
         <option value="$PROJECT_DIR$/bilibili_user.py" />
+        <option value="$PROJECT_DIR$/venv/remove_duplicate_data.py" />
       </list>
     </option>
   </component>
@@ -115,6 +151,21 @@
             <path>
               <item name="bilibiliCrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="bilibiliCrawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bilibiliCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="bilibiliCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (bilibiliCrawler) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="bilibiliCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (bilibiliCrawler) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bilibili_user">
+  <component name="RunManager" selected="Python.remove_duplicate_data">
     <configuration name="bilibili_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bilibili-user" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,12 +233,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="remove_duplicate_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bilibili-user" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/remove_duplicate_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.bilibili_user" />
       <item itemvalue="Python.get_face" />
+      <item itemvalue="Python.remove_duplicate_data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.remove_duplicate_data" />
         <item itemvalue="Python.bilibili_user" />
         <item itemvalue="Python.get_face" />
       </list>
@@ -208,15 +282,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1960991" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1960991" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
       <window_info id="Job Explorer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2426869" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24186552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,16 +313,6 @@
     <entry file="file://$PROJECT_DIR$/user_agents.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3060" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilibili_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-          <folding>
-            <element signature="e#21#36#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bilibili_user_info.sql">
@@ -279,6 +344,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/remove_duplicates.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilibili_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="150" column="91" lean-forward="true" selection-start-line="150" selection-start-column="91" selection-end-line="150" selection-end-column="91" />
+          <folding>
+            <element signature="e#21#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/remove_duplicate_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1567009013594" expanded="true" signature="188:1130" ph="..." />
+            <marker date="1567009013594" expanded="true" signature="682:684" ph="..." />
+            <marker date="1567009013594" expanded="true" signature="682:688" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
