@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set "VIRTUAL_ENV=E:\project\Pyhton_project\bilibili-user\venv"
+set "VIRTUAL_ENV=E:\project\github\boooooommmmmm\bilibiliCrawler\venv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

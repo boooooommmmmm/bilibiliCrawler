@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="E:\project\Pyhton_project\bilibili-user\venv"
+VIRTUAL_ENV="E:\project\github\boooooommmmmm\bilibiliCrawler\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

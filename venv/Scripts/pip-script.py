@@ -1,4 +1,4 @@
-#!E:\project\Pyhton_project\bilibili-user\venv\Scripts\python.exe
+#!E:\project\github\boooooommmmmm\bilibiliCrawler\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==10.0.1','console_scripts','pip'
 __requires__ = 'pip==10.0.1'
 import re
