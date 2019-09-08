@@ -62,7 +62,7 @@ urls = []
 
 # Please change the range data by yourself.
 def get_urls():
-    for m in range(1, 100):
+    for m in range(905, 1000):
         for i in range(m * 100, (m + 1) * 100):
             url = 'https://space.bilibili.com/' + str(i)
             urls.append(url)
